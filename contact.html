@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Nova Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Nova Studio</a>
+        <ul class="nav-links">
+            <li><a href="projects.html">Projects ▾</a>
+                <div class="dropdown">
+                    <div class="dropdown-column">
+                        <h4>By Type</h4>
+                        <a href="projects.html">Residential</a>
+                        <a href="projects.html">Commercial</a>
+                        <a href="projects.html">Hospitality</a>
+                    </div>
+                    <div class="dropdown-column">
+                        <h4>By Status</h4>
+                        <a href="projects.html">Completed</a>
+                        <a href="projects.html">In Progress</a>
+                        <a href="projects.html">Conceptual</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="services.html">Services ▾</a>
+                <div class="dropdown">
+                    <div class="dropdown-column">
+                        <h4>Expertise</h4>
+                        <a href="services.html">Architectural Design</a>
+                        <a href="services.html">Interior Design</a>
+                        <a href="services.html">Landscape</a>
+                    </div>
+                    <div class="dropdown-column">
+                        <h4>Consulting</h4>
+                        <a href="services.html">Master Planning</a>
+                        <a href="services.html">3D Visualization</a>
+                        <a href="services.html">Sustainability</a>
+                    </div>
+                </div>
+            </li>
+            <li><a href="studio.html">Studio</a></li>
+            <li><a href="contact.html" style="color: var(--primary);">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-outline" style="background: var(--dark); color: var(--white);">Start a Project</a>
+    </header>
+
+    <section class="section" style="padding-top: 180px; max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 80px;">
+        <div style="flex: 1; min-width: 300px;">
+            <span class="badge">Get in Touch</span>
+            <h1 style="font-size: 3.5rem; margin-bottom: 20px; color: var(--dark); line-height: 1.1;">Let's design your next space.</h1>
+            <p style="color: var(--text-light); font-size: 1.1rem; margin-bottom: 40px;">Whether you have a clear vision or just a spark of an idea, we'd love to hear from you. Fill out the form and our team will be in touch within 48 hours.</p>
+            
+            <div style="margin-bottom: 30px;">
+                <h4 style="color: var(--dark); font-family: 'Inter', sans-serif; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Email Us</h4>
+                <p style="color: var(--primary); font-weight: 500; font-size: 1.2rem;">hello@novastudio.com</p>
+            </div>
+            <div>
+                <h4 style="color: var(--dark); font-family: 'Inter', sans-serif; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px;">Visit Us</h4>
+                <p style="color: var(--text-light);">123 Design District<br>Los Angeles, CA 90210</p>
+            </div>
+        </div>
+
+        <div style="flex: 1; min-width: 300px; background: var(--white); padding: 50px; border-radius: var(--radius); box-shadow: 0 20px 40px rgba(0,0,0,0.02);">
+            <form style="display: flex; flex-direction: column; gap: 20px;">
+                <input type="text" placeholder="Your Name" required style="padding: 15px; border-radius: 8px; border: 1px solid var(--border); font-family: inherit; background: var(--light);">
+                <input type="email" placeholder="Email Address" required style="padding: 15px; border-radius: 8px; border: 1px solid var(--border); font-family: inherit; background: var(--light);">
+                <select style="padding: 15px; border-radius: 8px; border: 1px solid var(--border); font-family: inherit; background: var(--light); color: var(--text-light);">
+                    <option>Project Type: Residential</option>
+                    <option>Project Type: Commercial</option>
+                    <option>Project Type: Hospitality</option>
+                    <option>Other</option>
+                </select>
+                <textarea placeholder="Tell us about your project..." rows="5" required style="padding: 15px; border-radius: 8px; border: 1px solid var(--border); font-family: inherit; background: var(--light); resize: vertical;"></textarea>
+                <button type="submit" class="btn btn-primary" style="align-self: flex-start; padding: 15px 40px; margin-top: 10px;">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="margin-top: 80px;">
+        <div class="footer-grid">
+            <div>
+                <a href="index.html" class="logo">Nova Studio</a>
+                <p style="color: #888; max-width: 300px; font-size: 0.9rem;">Creating timeless architecture and interior spaces across the globe.</p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="studio.html">Studio</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2024 Nova Studio. All rights reserved.</div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
